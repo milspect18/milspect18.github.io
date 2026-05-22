@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriceTec Designs, LLC</title>
+    <link rel="icon" type="image/x-icon" href="./res/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+    <header class="site-header" id="siteHeader">
+        <a href="#top" class="site-header__logo" aria-label="PriceTec Designs home">
+            <img src="./res/P_pcb.svg" alt="PriceTec Designs">
+        </a>
+        <nav class="site-header__nav">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="top">
+        <a href="#about" class="hero__contact__link">
+            <img class="hero__logo" id="heroLogo" src="./res/hero_name_stack.svg" alt="PriceTec Designs, LLC Logo">
+        </a>
+    </section>
+
+    <main>
+        <section class="section" id="about">
+            <div class="section__inner">
+                <h2>About</h2>
+                <p>PriceTec Designs, LLC is a company dedicated to providing innovative engineering solutions and high-quality designs for a variety of industries. Our team is committed to delivering exceptional results and solving complex problems for our clients.</p>
+                <br/>
+                <p>Whether you need custom software developed for an embedded system, a new web application, or a complete system solution, we have the expertise to deliver outstanding results.</p>
+            </div>
+        </section>
+
+        <section class="section" id="work">
+            <div class="section__inner">
+                <h2>Work</h2>
+                <div class="work-card">
+                    <div class="work-card__title">
+                        <a 
+                            href="https://www.innovativeavionics.com/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <em>Amelia Voice Control System</em> (Innovative Avionics)
+                        </a>
+                    </div>
+                    <div class="work-card__description">
+                        <p>Amelia enhances cockpit operations with its sophisticated voice control system designed specifically for pilots.  This innovative system assists with managing aircraft checklists in real-time, improving both safety and efficiency without requiring an internet connection.  A portable and light-weight solution that offers compatibility with any existing aircraft headset and provides up to 12 hours of continuous use on a single charge.</p>
+                        <a 
+                            href="https://youtu.be/ZPseEJC71bU?si=zfPZ10iwryopt0fO"
+                            style="font-weight: 500; font-size: 1rem; margin: 18px 0; display: inline-block;" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Video Demonstration
+                        </a>
+                        <p style="font-weight: 500; font-size: 1.15rem;">Work Scope:</p>
+                        <ul style="margin: 0;">
+                            <li>Custom embedded system design.</li>
+                            <li>Ground up Yocto based Linux image development.</li>
+                            <li>Full-stack voice control software development.</li>
+                            <li>iOS application development.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="section__inner">
+                <h2>Contact</h2>
+                <div class="contact-card">
+                    <div class="contact-card__image">
+                        <img src="./res/kp_headshot.JPG" alt="Headshot of Kyle Price">
+                    </div>
+                    <div class="contact-card__identity">
+                        <p class="contact-card__name">Kyle Price</p>
+                        <p class="contact-card__title">Owner / Engineer</p>
+                        <p class="contact-card__company">PriceTec Designs, LLC</p>
+                    </div>
+                    <ul class="contact-card__list">
+                        <li class="contact-card__list-item">
+                            <svg class="contact-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <a href="tel:503-901-6114">503-901-6114</a>
+                        </li>
+                        <li class="contact-card__list-item">
+                            <svg class="contact-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <a href="mailto:kyle@pricetecdesigns.com">kyle@pricetecdesigns.com</a>
+                        </li>
+                        <li class="contact-card__list-item">
+                            <svg class="contact-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Dacula, GA</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
