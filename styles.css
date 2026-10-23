@@ -263,6 +263,22 @@ body {
     text-decoration: underline;
 }
 
+.booking-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #039BE5;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.15s ease;
+}
+
+.booking-btn:hover,
+.booking-btn:focus-visible {
+    background: #0288D1;
+}
+
 
 @media (max-width: 600px) {
     .site-header { padding: 0 16px; }
